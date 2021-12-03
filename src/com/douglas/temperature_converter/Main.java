@@ -5,15 +5,17 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        ConvertCelsiusToAll();
+        convertCelsiusToAll();
 
     }
 
-    private static void ConvertCelsiusToAll(){
+    private static void convertCelsiusToAll(){
+        float celsius;
         Scanner input = new Scanner(System.in);
         System.out.printf("Digite um valor em Celsius para converter ou crtl+D para sair %n");
+
         while(input.hasNext()){
-            float celsius = input.nextFloat();
+            celsius = input.nextFloat();
             System.out.printf(
                     "O valor em celsius inserido é: %.2fºC.%n" +
                     "Em Fahrenheit é %.2fºF.%n" +
