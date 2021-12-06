@@ -1,6 +1,6 @@
 package com.douglas.temperature_converter;
 
-import com.douglas.temperature_converter.printer.ConsoleTexts;
+import com.douglas.temperature_converter.utils.ConsoleTexts;
 
 import java.util.Scanner;
 

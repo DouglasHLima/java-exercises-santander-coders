@@ -1,6 +1,6 @@
-package com.douglas.temperature_converter.printer;
+package com.douglas.temperature_converter.utils;
 
-import com.douglas.temperature_converter.calculator.CelsiusConverter;
+import com.douglas.temperature_converter.service.CelsiusConverter;
 
 public class ConsoleTexts {
 

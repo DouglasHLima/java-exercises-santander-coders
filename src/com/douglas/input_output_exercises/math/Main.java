@@ -7,7 +7,7 @@ package com.douglas.input_output_exercises.math;
         e divisão. Considere sempre a ordem em que foram informados.
         */
 
-import com.douglas.input_output_exercises.math.printer.ConsoleTexts;
+import com.douglas.input_output_exercises.math.utils.ConsoleTexts;
 
 import java.util.Scanner;
 
@@ -32,8 +32,8 @@ public class Main {
             System.out.println("--------------------------------------------------");
             ConsoleTexts.requestFirstNumber();
             ConsoleTexts.informExitMethod();
-
         }while (inputScan.hasNext());
+        inputScan.close();
     }
 }
 

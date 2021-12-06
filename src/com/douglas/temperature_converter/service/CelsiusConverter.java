@@ -1,4 +1,4 @@
-package com.douglas.temperature_converter.calculator;
+package com.douglas.temperature_converter.service;
 
 public class CelsiusConverter {
 

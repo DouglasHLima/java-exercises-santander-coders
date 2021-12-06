@@ -1,6 +1,4 @@
-package com.douglas.input_output_exercises.math.calculator;
-
-import java.util.Arrays;
+package com.douglas.input_output_exercises.math.services;
 
 public class Calculator {
 

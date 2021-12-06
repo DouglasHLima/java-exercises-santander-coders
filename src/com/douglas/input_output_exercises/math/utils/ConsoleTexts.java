@@ -1,6 +1,6 @@
-package com.douglas.input_output_exercises.math.printer;
+package com.douglas.input_output_exercises.math.utils;
 
-import com.douglas.input_output_exercises.math.calculator.Calculator;
+import com.douglas.input_output_exercises.math.services.Calculator;
 
 public class ConsoleTexts {
 
