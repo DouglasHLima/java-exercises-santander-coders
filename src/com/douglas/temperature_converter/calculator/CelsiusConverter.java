@@ -23,6 +23,7 @@ public class CelsiusConverter {
         final float RANKINE_CONVERSION_FACTOR = 1.8f;
         final float RANKINE_VARIANCE = 491f;
         return (celsius * RANKINE_CONVERSION_FACTOR) + RANKINE_VARIANCE;
+
     }
 
 
