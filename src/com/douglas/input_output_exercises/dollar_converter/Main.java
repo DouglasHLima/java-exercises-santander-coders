@@ -20,7 +20,7 @@ public class Main {
         convertBRLToDollar();
     }
 
-    public static void convertBRLToDollar(){
+    private static void convertBRLToDollar(){
         BigDecimal dollarValue;
         BigDecimal amountToConvert;
 
