@@ -8,8 +8,8 @@ package com.douglas.input_output_exercises.math;
         */
 
 import com.douglas.input_output_exercises.math.utils.ConsoleTexts;
+import com.douglas.input_output_exercises.utils.ScannerInput;
 
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,23 +17,22 @@ public class Main {
     }
 
     private static void performAllOperations(){
-        Scanner inputScan = new Scanner(System.in);
+        ScannerInput.open();
         int[] numbersToCalculate = new int[2];
 
         ConsoleTexts.requestFirstNumber();
         ConsoleTexts.informExitMethod();
 
-        while (inputScan.hasNext()){
-            numbersToCalculate[0] = inputScan.nextInt();
+        while (ScannerInput.hasNext()){
+            numbersToCalculate[0] = ScannerInput.nextInt();
             ConsoleTexts.requestSecondNumber();
-            ConsoleTexts.informExitMethod();
-            numbersToCalculate[1] = inputScan.nextInt();
+            numbersToCalculate[1] = ScannerInput.nextInt();
             ConsoleTexts.showAllResults(numbersToCalculate[0],numbersToCalculate[1]);
             System.out.println("--------------------------------------------------");
             ConsoleTexts.requestFirstNumber();
             ConsoleTexts.informExitMethod();
         }
-        inputScan.close();
+        ScannerInput.close();
     }
 }
 
