@@ -22,7 +22,6 @@ public class Main {
         while (inputScan.hasNext()){
 
             number = inputScan.nextInt();
-
             for(int i = 0; i <= 10; i++){
                 System.out.printf("%s X %s = %s %n",i,number,i*number);
             }
