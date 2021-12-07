@@ -23,7 +23,7 @@ public class Main {
         ConsoleTexts.requestFirstNumber();
         ConsoleTexts.informExitMethod();
 
-        do{
+        while (inputScan.hasNext()){
             numbersToCalculate[0] = inputScan.nextInt();
             ConsoleTexts.requestSecondNumber();
             ConsoleTexts.informExitMethod();
@@ -32,7 +32,7 @@ public class Main {
             System.out.println("--------------------------------------------------");
             ConsoleTexts.requestFirstNumber();
             ConsoleTexts.informExitMethod();
-        }while (inputScan.hasNext());
+        }
         inputScan.close();
     }
 }
