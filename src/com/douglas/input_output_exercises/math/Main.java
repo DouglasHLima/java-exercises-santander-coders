@@ -8,7 +8,7 @@ package com.douglas.input_output_exercises.math;
         */
 
 import com.douglas.input_output_exercises.math.utils.ConsoleTexts;
-import com.douglas.input_output_exercises.utils.ScannerInput;
+import com.douglas.utils.ScannerInput;
 
 
 public class Main {

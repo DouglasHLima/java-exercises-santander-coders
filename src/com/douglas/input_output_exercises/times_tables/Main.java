@@ -5,9 +5,7 @@ package com.douglas.input_output_exercises.times_tables;
         Escreva um programa que informa a tabuada de um número informado (entre 1-10).
     */
 
-import com.douglas.input_output_exercises.utils.ScannerInput;
-
-import java.util.Scanner;
+import com.douglas.utils.ScannerInput;
 
 public class Main {
     public static void main(String[] args) {

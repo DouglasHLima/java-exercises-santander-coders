@@ -9,14 +9,13 @@ package com.douglas.input_output_exercises.dollar_converter;
     */
 
 import com.douglas.input_output_exercises.dollar_converter.utils.Printer;
-import com.douglas.input_output_exercises.utils.ScannerInput;
+import com.douglas.utils.ScannerInput;
 
 import java.math.BigDecimal;
 
 public class Main {
 
     public static void main(String[] args) {
-
         convertBRLToDollar();
     }
 

@@ -6,7 +6,7 @@ package com.douglas.input_output_exercises.metric_converter;
 
 
 import com.douglas.input_output_exercises.metric_converter.utils.Printer;
-import com.douglas.input_output_exercises.utils.ScannerInput;
+import com.douglas.utils.ScannerInput;
 
 public class Main {
     public static void main(String[] args) {
